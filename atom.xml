@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-12T11:43:27.821Z</updated>
+  <updated>2019-04-12T14:57:19.706Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些照片咯</title>
+    <link href="http://yoursite.com/2019/04/12/page%E7%84%A6%E8%99%91/"/>
+    <id>http://yoursite.com/2019/04/12/page焦虑/</id>
+    <published>2019-04-12T14:22:38.000Z</published>
+    <updated>2019-04-12T14:57:19.706Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;突然发现万恶的百度云还是干了点好事，比如帮我存下了一些照片。<br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180427_203732R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180503_064018R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180503_070845R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180503_070857R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180628_183722R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20180805_155003R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20190225_133015R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20190225_134243R.jpg"><br><img src="http://pptzet0x4.bkt.clouddn.com/IMG_20190329_170624R.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;突然发现万恶的百度云还是干了点好事，比如帮我存下了一些照片。&lt;br&gt;&lt;img src=&quot;http://pptzet0x4.bkt.clouddn.com/IMG_20180427_203732R.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;ht
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="照片" scheme="http://yoursite.com/tags/%E7%85%A7%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>解决github绑定域名必须输入www的问题</title>
