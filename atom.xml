@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-11T14:54:12.827Z</updated>
+  <updated>2019-04-12T11:43:27.821Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/04/11/%E8%A7%A3%E5%86%B3github%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E5%BF%85%E9%A1%BB%E8%BE%93%E5%85%A5www%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2019/04/11/解决github绑定域名必须输入www的问题/</id>
     <published>2019-04-11T14:30:06.000Z</published>
-    <updated>2019-04-11T14:54:12.827Z</updated>
+    <updated>2019-04-12T11:43:27.821Z</updated>
     
     <content type="html"><![CDATA[<p> &ensp;&ensp;&ensp;博主在配置hexo时绑定购买的域名，在CANAME的设置正确以及所有文件配置正确的情况下，有时需要输入域名全称，造成了极大的不便，经过多次实验发现了问题所在<br> &ensp;&ensp;&ensp;我们通常在解析域名时需要添加两种类型的记录，第一种为<strong>CNAME</strong>指将一个域名解析到另一个域名，这次解析方法再这里不详细解说，问题出在第二种解析方式上，第二种解析方式为<strong>A</strong>指的是将域名解析到另一个IPV4地址，我们通常查看网页ip地址的方式是在控制台输入CMD，通过ping命令来查看我们网页的ip地址，操作如图所示<br> <img src="http://i2.bvimg.com/683465/c0eb7d7e5a1d4fb7.png" alt="Markdown"><br> &ensp;&ensp;&ensp;这里我们发现了自己网页的地址，通过添加记录的方式将域名解析到了我们的网站上，可是经过测试，连接并不稳定，这是由于我们ping的网页仅仅给了我们一个IPV4的地址，我们通过另一款工具<strong><a href="http://ip.tool.chinaz.com/" target="_blank" rel="noopener">http://ip.tool.chinaz.com/</a></strong>    </p><p><img src="http://i2.bvimg.com/683465/1d224d1f8384d280.png" alt="Markdown">  </p><p> 查询后的ip如下<br> <img src="http://i2.bvimg.com/683465/0c741152167823c7.png" alt="Markdown">   </p><p> &ensp;&ensp;&ensp;可以看到我们的网页有四个ip地址，所以我们只需要将剩余的三个ip地址添加到域名控制台的解析中就可以了<br> <img src="http://i2.bvimg.com/683465/9a665eeffa184ff4.png" alt="Markdown">  </p><p>&ensp;&ensp;&ensp; 操作完成后我们在通过域名访问我们的地址，发现任何时候都可以访问了</p>]]></content>
     
@@ -34,6 +34,12 @@
     
     </summary>
     
+      <category term="技术文档" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
