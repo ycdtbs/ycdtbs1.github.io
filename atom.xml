@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-15T10:34:07.714Z</updated>
+  <updated>2019-04-17T11:22:49.625Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java连接mysql数据库</title>
+    <link href="http://yoursite.com/2019/04/17/new/"/>
+    <id>http://yoursite.com/2019/04/17/new/</id>
+    <published>2019-04-17T05:26:47.000Z</published>
+    <updated>2019-04-17T11:22:49.625Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;博主最近学习了数据库相关的知识，对于最近在数据库中遇到的问题以及问题的解决方案，写了下篇的文章。  </p><p>&ensp;&ensp;&ensp;1.我们需要下载数据库的驱动程序，下载地址如下<br><a href="https://dev.mysql.com/downloads/connector/j/5.1.html" target="_blank" rel="noopener">https://dev.mysql.com/downloads/connector/j/5.1.html</a><br>&ensp;&ensp;&ensp;2.在我们的eclipse的项目内新建一个文件夹，新建方式为：项目上右键-new-folder</p><p><img src="http://pq3ggqkej.bkt.clouddn.com/%E7%AC%AC%E4%B8%80%E6%AD%A5.PNG"><br>&ensp;&ensp;&ensp;习惯将文件夹命名为lib（工具）我们复制下载的驱动包，在lib文件夹上粘贴，这时候我们发现lib文件夹中看到了我们添加的驱动包，下一步我们需要加载驱动包，在驱动包上右键选择Build path -add to build path 将驱动添加到程序中。<br>&ensp;&ensp;&ensp;3.接下来我们就是加载数据库所固定的代码<br>第一步：加载数据库：<br>‘’’<br>class.forName(“com.mysql.jdbc.Driver”);//加载数据库驱动<br>‘’’</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;博主最近学习了数据库相关的知识，对于最近在数据库中遇到的问题以及问题的解决方案，写了下篇的文章。  &lt;/p&gt;
+&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;1.我们需要下载数据库的驱动程序，下载地址如下&lt;br&gt;&lt;a href=&quot;https:/
+      
+    
+    </summary>
+    
+      <category term="技术文章" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>心情</title>
