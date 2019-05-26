@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-17T11:22:49.625Z</updated>
+  <updated>2019-05-26T07:37:29.310Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jsp中request请求乱码问题的解决方案</title>
+    <link href="http://yoursite.com/2019/05/26/jsp%E4%B8%ADrequest%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://yoursite.com/2019/05/26/jsp中request请求乱码问题的解决方案/</id>
+    <published>2019-05-26T07:31:41.000Z</published>
+    <updated>2019-05-26T07:37:29.310Z</updated>
+    
+    <content type="html"><![CDATA[<p> &ensp;&ensp;&amp;ensp在js中使用onclick将数据传向serverlet后数据乱码，经过测试，在jsp界面中时中文编码还是正常的，但是在serverlet中却乱码，通常的解决方法是在serverlet界面中编写<br>request.setCharacterEncoding(“utf-8”);<br>response.setCharacterEncoding(“UTF-8”);<br>可是问题依旧出现，经过查询得到了如下的解决方案<br>在正常的接收前端界面传来的参数后使用<br>你的参数名称=new String(你的参数名称.trim().getBytes(“ISO-8859-1”), “UTF-8”);<br>此举在于将编码先转换为ISO-8859-1后在转换成为utf-8，此时问题得以解决</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; &amp;ensp;&amp;ensp;&amp;amp;ensp在js中使用onclick将数据传向serverlet后数据乱码，经过测试，在jsp界面中时中文编码还是正常的，但是在serverlet中却乱码，通常的解决方法是在serverlet界面中编写&lt;br&gt;request.setChar
+      
+    
+    </summary>
+    
+      <category term="技术文档" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>java连接mysql数据库</title>
@@ -38,9 +65,9 @@
       <category term="技术文章" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -117,9 +144,9 @@
       <category term="技术文档" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
       <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
